@@ -1,0 +1,14 @@
+@media (max-width: 576px) {
+    .container {
+        width: 90vw;
+    }
+    .performance {
+        width: 90vw;
+    }
+    .informacoes {
+        width: 90vw;
+    }
+    .imagem-perfil {
+        width: 90vw;
+    }
+}

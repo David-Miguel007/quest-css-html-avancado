@@ -1,0 +1,72 @@
+:root {
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%)
+}
+
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-perfil {
+    display: flex;
+    height: 17vh;
+    width: 23vw;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container img {
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    width: 23vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.performance {
+    display: flex;
+    height: 13vh;
+    width: 23vw;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--text-color);
+}
+
+.quantidade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.informacoes {
+    height: 15vh;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.localidade {
+    height: 6vh;
+    display: flex;
+    align-items: flex-end;
+    font-size: 17px;
+    text-decoration-color: var(--text-color);
+}
